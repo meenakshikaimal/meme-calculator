@@ -5,7 +5,7 @@
 
 
 ## Basic Details
-### Team Name: aimless.exe
+### Team Name: aimless.exe 
 
 
 ### Team Members
@@ -35,23 +35,54 @@ For Software:
 
 # Screenshots (Add at least 3)
 <img width="1903" height="1020" alt="demo" src="https://github.com/user-attachments/assets/5de2868c-4674-41c1-98d3-e4ddbf846faa" />
-*Add caption explaining what this shows*
+Shows the frontend.
 
 <img width="1008" height="836" alt="demo3" src="https://github.com/user-attachments/assets/ae646c7b-1ed8-4498-9f6d-79b3985cafa0" />
-*Add caption explaining what this shows*
+Calculating the answer..
 
 <img width="1222" height="893" alt="demo2" src="https://github.com/user-attachments/assets/d343e9eb-8749-4c2c-a509-56377c36e8b3" />
-*Add caption explaining what this shows*
+One of the memes as the answer.
 
 <img width="1092" height="807" alt="demo5" src="https://github.com/user-attachments/assets/ac3cd0e2-c1a9-4db8-8d18-80c266ec2c70" />
-*Add caption explaining what this shows*
+Showing the meme.
 
 <img width="992" height="840" alt="demo4" src="https://github.com/user-attachments/assets/ba303a18-406f-4dc9-9dfe-1b5bb389565e" />
 Shows one of the memes
 
 ### Project Demo
-https://github.com/user-attachments/assets/0e92b8c9-a529-4be4-bd0b-af8e73e44a06
-*Explain what the video demonstrates*
+
+
+https://github.com/user-attachments/assets/56f6014a-c9af-43e0-b5ee-7ec281ae23ec
+
+
+
+This video showcases CalcYouLater, a front-end web application built for TinkerHub’s Useless Projects challenge.
+It’s a fully functional calculator wrapped in a chaotic, meme-infused, mood-reactive interface.
+
+Core Highlights in the Demo
+Calculation Engine:
+Pure JavaScript implementation for addition, subtraction, multiplication, and division.
+Event delegation for button clicks and keyboard inputs.
+Mood Detection System:
+Tracks real-time mouse cursor velocity using mousemove events.
+Maps cursor speed ranges to predefined moods.
+Displays context-specific toast notifications in a fixed-position stack.
+Meme & Chaos Mode:
+Random meme images inserted into the DOM with CSS-driven fall animations.
+Screen shake effect triggered via temporary CSS keyframe class injection.
+
+UI / UX Features:
+Theme Switching: CSS variables power instant swaps between Neon, Pastel, and Professional modes.
+Glassmorphism Design: Layered translucent backgrounds with backdrop-filter blur.
+
+Custom Animations:
+Ripple effect on button click using dynamically created elements.
+Glitch effect on display output via clip-path and CSS keyframes.
+Glowing animated borders in chaos mode using conic gradients.
+
+Performance Considerations:
+All animations hardware-accelerated via transform and opacity.
+Event listeners debounced where necessary to prevent performance bottlenecks.
 
 ## Team Contributions
 - Meenakshi Kaimal: Frontened Development
